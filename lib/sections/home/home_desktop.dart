@@ -68,7 +68,7 @@ class HomeDesktop extends StatelessWidget {
                 ),
                 Space.y1!,
                 Text(
-                  "Muhammad",
+                  "Anh",
                   style: AppText.h1!.copyWith(
                     fontFamily: 'Montserrat',
                     fontSize: AppDimensions.normalize(25),
@@ -76,7 +76,7 @@ class HomeDesktop extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Hamza",
+                  "Pham",
                   style: AppText.h1b!.copyWith(
                     fontSize: AppDimensions.normalize(25),
                     height: 1,
@@ -95,12 +95,12 @@ class HomeDesktop extends StatelessWidget {
                       AnimatedTextKit(
                         animatedTexts: [
                           TyperAnimatedText(
-                            ' Flutter Developer',
+                            ' Software Engineer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' UI/UX Enthusiast',
+                            ' Backend Developer ',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
@@ -115,8 +115,8 @@ class HomeDesktop extends StatelessWidget {
                     ],
                   ),
                 ),
-                Space.y2!,
-                const SocialLinks(),
+                // Space.y2!,
+                // const SocialLinks(),
               ],
             ),
           ),
